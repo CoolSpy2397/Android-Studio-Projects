@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">AnonyFeed</string>
+    <string name="action_settings">Settings</string>
+    <string name="signup">Signup</string>
+    <string name="login">Login</string>
+    <string name="logo">Logo</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="no_account">No account yet? Create one</string>
+    <string name="create_acc">Create Account</string>
+    <string name="already">Already a member? Login</string>
+    <string name="conf_password">Confirm Password</string>
+    <string name="welcome">Welcome </string>
+    <string name="dept">Department</string>
+    <string name="submit">Submit</string>
+
+</resources>

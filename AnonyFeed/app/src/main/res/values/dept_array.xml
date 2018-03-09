@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="department">
+
+        <item>Department</item>
+
+        <item>SWE</item>
+
+        <item>CSE</item>
+
+        <item>IT</item>
+
+        <item>ECE</item>
+
+        <item>EEE</item>
+
+    </string-array>
+
+</resources>

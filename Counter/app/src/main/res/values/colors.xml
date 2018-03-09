@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#4b55e1</color>
+    <color name="colorPrimaryDark">#4b55e1</color>
+    <color name="colorAccent">#f5f5dc</color>
+    <color name="Increment">#00ff00</color>
+    <color name="Decrement">#ff0000</color>
+    <color name="text">#c78d00</color>
+    <color name="reset">#ffd800</color>
+</resources>

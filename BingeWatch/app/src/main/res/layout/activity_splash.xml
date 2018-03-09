@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/back"
+        android:scaleType="centerCrop"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#ff0000"
+            android:textSize="64sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="150dp"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintRight_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/logo"
+            android:layout_marginTop="100dp"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/editText"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintRight_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/creds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/creds"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:gravity="center"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/imageView"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintRight_toLeftOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

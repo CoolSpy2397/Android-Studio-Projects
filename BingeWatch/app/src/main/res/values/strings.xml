@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BingeWatch</string>
+    <string name="flash_screen">Flash Screen</string>
+    <string name="Name">Name</string>
+    <string name="releaseDate">Release Date</string>
+    <string name="Date">Date</string>
+    <string name="Ratings">Ratings</string>
+    <string name="Overview">Overview</string>
+    <string name="Language">Original Language</string>
+    <string name="creds">Photo by Timothy Eberly on Unsplash</string>
+</resources>
